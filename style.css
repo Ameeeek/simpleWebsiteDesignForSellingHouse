@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 12px;
+    position:absolute;
+}
+h3{
+    font-family: 'inter',serif;
+    font-size: 24px;
+}
+.pojok2{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 1rem;
+}
+.pojok{
+    margin-top: 1rem;
+    padding-top:1rem;
+    margin-right: 5rem;
+    font-family: 'inter', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.hitam{
+    background-color: black;
+    color: white;
+}
+.putih{
+    background-color: white;
+    color:black;
+    position: absolute;
+}
+.kiri{
+    position: absolute;
+    margin-top: 8rem;
+    padding-top:1rem;
+    margin-right: 2rem;
+    font-family: 'inter', serif;
+    font-size: 18px;
+    color:black;
+}
+.kiri2{
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.kiri3{
+    color:black;
+}
+.content__container{
+    margin: 5em;
+    display: flex;
+    background-color:#212121;
+}
+.text{
+    padding: 2em;
+    font-family: 'inter', serif;
+    color:white;
+}
+.text__header{
+    font-size: 4em;
+    margin-bottom: 1rem;    
+}
+.tombol{
+    margin-top: 8rem;
+}
+.beli-sewa{
+    font-family: 'inter', serif;
+    border: solid white;
+    border-radius: 12px;
+}
+.beli{
+    border: solid black;
+    background-color:white;
+    color:black;
+}
+.sewa{
+    background-color:black;
+    color:white;
+}
+.bagianbawah{
+    display: flex;
+    border: white solid;
+    background-color:white;
+    color: black;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.bagianbawah1, .bagianbawah2, .bagianbawah3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
